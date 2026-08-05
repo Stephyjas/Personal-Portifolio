@@ -1,0 +1,255 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+body{
+
+    background:#1b1b1b;
+    color:white;
+    padding:40px;
+
+}
+
+
+
+.resume-container{
+
+    max-width:900px;
+    margin:auto;
+    background:#242424;
+    padding:40px;
+    border-radius:20px;
+
+    border:2px solid #9b59ff;
+
+    box-shadow:
+    0 0 15px #9b59ff,
+    0 0 30px rgba(155,89,255,0.5);
+
+    animation:show 1s ease;
+
+}
+
+
+
+@keyframes show{
+
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+
+
+
+header{
+
+    text-align:center;
+    padding-bottom:30px;
+    border-bottom:1px solid #9b59ff;
+
+}
+
+
+
+header h1{
+
+    font-size:40px;
+    color:#b77cff;
+
+}
+
+
+
+header p{
+
+    margin-top:8px;
+    color:#ddd;
+
+}
+
+
+
+.contact{
+
+    margin-top:20px;
+    line-height:2;
+
+}
+
+
+
+
+section{
+
+    margin-top:35px;
+
+}
+
+
+
+section h2{
+
+    color:#b77cff;
+    border-left:5px solid #9b59ff;
+    padding-left:12px;
+    margin-bottom:15px;
+
+}
+
+
+
+section p{
+
+    color:#ddd;
+    line-height:1.7;
+
+}
+
+
+
+
+.box{
+
+    background:#303030;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    margin-top:15px;
+
+    border:1px solid transparent;
+
+    transition:0.4s;
+
+}
+
+
+
+
+.box:hover{
+
+    border-color:#b77cff;
+
+    transform:translateY(-5px);
+
+    box-shadow:0 0 20px rgba(183,124,255,0.5);
+
+}
+
+
+
+
+h3{
+
+    color:#ffffff;
+    margin-bottom:10px;
+
+}
+
+
+
+ul{
+
+    margin-left:25px;
+
+}
+
+
+
+li{
+
+    color:#ddd;
+
+    margin:8px 0;
+
+}
+
+
+
+
+.download{
+
+    text-align:center;
+
+    margin-top:40px;
+
+}
+
+
+
+
+.download a{
+
+    display:inline-block;
+
+    padding:15px 35px;
+
+    background:#9b59ff;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    transition:0.3s;
+
+}
+
+
+
+.download a:hover{
+
+    background:#b77cff;
+
+    box-shadow:0 0 25px #9b59ff;
+
+    transform:scale(1.05);
+
+}
+
+
+
+
+@media(max-width:600px){
+
+    body{
+
+        padding:15px;
+
+    }
+
+
+    .resume-container{
+
+        padding:25px;
+
+    }
+
+
+    header h1{
+
+        font-size:28px;
+
+    }
+
+}
